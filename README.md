@@ -5,14 +5,17 @@
 - React
 - TypeScript
 - Vite
+- React Router
 - swc
 - semi-ui
 - tailwindcss
 - reset-css
 - zustand
-- vite-plugin-pwa
+- swr
 - husky
 - lint-staged
 - commitlint
 - ESLint
 - Prettier
+- vite-plugin-pwa
+- vite-aliases

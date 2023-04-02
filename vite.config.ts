@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 // Plugins
 import react from '@vitejs/plugin-react-swc';
 import { VitePWA } from 'vite-plugin-pwa';
+import { ViteAliases } from 'vite-aliases';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,5 +19,6 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
       },
     }),
+    ViteAliases(),
   ],
 });
